@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main(){
+    int w,x,y;
+    int pro;
+    scanf("%d\n%d\n%d",&w,&x,&y);
+    pro=(w*(x-y))-100;
+    printf("%d\n",pro);
+    
+    return 0;
+} 
