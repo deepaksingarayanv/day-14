@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    int p, r, y;
+    
+    scanf("%d %d %d", &p,&r,&y);
+    
+    float interest = (p * r * y) / 100.0;
+    float total= p + interest;
+    float discount = 0.02 * interest;
+    float final = total - discount;
+    
+    printf("%.2f\n", interest);
+    printf("%.2f\n", total);
+    printf("%.2f\n", discount);
+    printf("%.2f\n", final);
+    
+    return 0;
+}
