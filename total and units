@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+    int a;
+    scanf("%d",&a);
+    int t=a%10;
+    int u=a/10;
+    a=t+u;
+    printf("%d",a);
+}
