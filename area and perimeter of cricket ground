@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int length, breadth;
+    
+    scanf("%d %d", &length,&breadth);
+    
+    
+    int peri = 2 * (length + breadth); 
+    int area = length * breadth;           
+    printf("%d\n", peri);
+    printf("%d\n", area);
+    
+    return 0;
+}
