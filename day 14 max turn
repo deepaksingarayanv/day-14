@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main(){
+    int t,p,max=0;
+     scanf("%d %d",&t,&p);
+   
+    max=t/2-p/2;
+
+ 
+    if(max<=p/2){
+        printf("%d",max);
+        
+    }else{
+        printf("%d",p/2);
+    }
+    return 0;
+}
