@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+    int s,t;
+    scanf("%d %d",&s,&t);
+    int students_in_team=s/t;
+    int left_students=s%t;
+    printf("%d\n%d\n",students_in_team,left_students);
+    
+}
